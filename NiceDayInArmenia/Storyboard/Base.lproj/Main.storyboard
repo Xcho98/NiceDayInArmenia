@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mSn-H4-hIf">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item 2-->
+        <scene sceneID="ARl-ip-Mjw">
+            <objects>
+                <viewController id="NKE-8F-9rQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J1r-Re-7su">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="NNv-x6-pul"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="xYa-ED-9c4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dCv-rd-J6T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2232" y="905"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="Wtj-cN-0uf">
+            <objects>
+                <viewController id="1qQ-6G-Zlz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g1b-C5-3ey">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Exs-Z2-vxR"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="pF3-CI-qIT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yYi-aa-pVA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1267" y="905"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="rET-vO-fhx">
+            <objects>
+                <viewController id="Gn3-Cv-iyv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cIF-uG-gRL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KyV-R7-Eok"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Ju8-nC-6ug"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKn-Xc-Kr1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-339" y="905"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="IfQ-gx-rtD">
+            <objects>
+                <viewController id="NAm-xd-soT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VBq-Hv-rBo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="60N-fi-r7p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="VEH-fZ-WdN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKt-gL-MYc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="696" y="905"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="zTf-TF-SC1">
+            <objects>
+                <viewController id="hwF-kR-MUw" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EbR-JQ-GJO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="sFp-qX-4Hq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="OEE-8b-gjG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5uE-No-GXa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1712" y="905"/>
+        </scene>
+        <!--Splash Controller-->
+        <scene sceneID="Fwj-6Z-8R7">
+            <objects>
+                <viewController id="mSn-H4-hIf" customClass="SplashController" customModule="NiceDayInArmenia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ycB-73-EMz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Erevan" translatesAutoresizingMaskIntoConstraints="NO" id="rmo-bO-Xe4">
+                                <rect key="frame" x="10" y="104" width="394" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="9dZ-Ii-Paa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heH-f9-voK">
+                                <rect key="frame" x="10" y="424" width="394" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="jeq-Io-U0h"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="30"/>
+                                <color key="textColor" systemColor="systemYellowColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="c3n-Y0-534"/>
+                        <color key="backgroundColor" red="0.7050759011937171" green="0.024786187420888037" blue="0.40275000279869139" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="heH-f9-voK" firstAttribute="top" secondItem="rmo-bO-Xe4" secondAttribute="bottom" constant="20" id="9ly-NL-1fJ"/>
+                            <constraint firstItem="rmo-bO-Xe4" firstAttribute="leading" secondItem="c3n-Y0-534" secondAttribute="leading" constant="10" id="JT7-Zh-r4u"/>
+                            <constraint firstItem="heH-f9-voK" firstAttribute="leading" secondItem="c3n-Y0-534" secondAttribute="leading" constant="10" id="Jqd-hR-mXd"/>
+                            <constraint firstAttribute="trailing" secondItem="rmo-bO-Xe4" secondAttribute="trailing" constant="10" id="KvZ-94-We1"/>
+                            <constraint firstAttribute="trailing" secondItem="heH-f9-voK" secondAttribute="trailing" constant="10" id="hPO-yg-8hw"/>
+                            <constraint firstItem="rmo-bO-Xe4" firstAttribute="top" secondItem="c3n-Y0-534" secondAttribute="top" constant="60" id="uBf-qb-Yh3"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageErevan" destination="rmo-bO-Xe4" id="vG3-Em-jep"/>
+                        <outlet property="textLabel" destination="heH-f9-voK" id="HtU-gs-f5Z"/>
+                        <segue destination="s5f-PY-v9j" kind="show" identifier="LoginController" id="2RI-x8-GcM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Eb-TG-5E0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2526.0869565217395" y="128.57142857142856"/>
+        </scene>
+        <!--Login Controller-->
+        <scene sceneID="7S9-aj-zAY">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="s5f-PY-v9j" customClass="LoginController" customModule="NiceDayInArmenia" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lwh-4j-WqY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QFv-t2-K4J">
+                                <rect key="frame" x="10" y="144" width="394" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="sfs-1F-jWK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="continue" textContentType="email"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="neu-gU-ydX">
+                                <rect key="frame" x="10" y="254" width="394" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="uIb-or-vSU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pJO-DK-S59">
+                                <rect key="frame" x="40" y="364" width="334" height="60"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="qiT-Mb-Oai"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="loginSave:" destination="s5f-PY-v9j" eventType="touchUpInside" id="Rdj-UT-Hgn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tgp-aS-8Ds">
+                                <rect key="frame" x="344" y="44" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="NR8-hf-lZM"/>
+                                    <constraint firstAttribute="height" constant="50" id="cIt-ms-fSH"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="i7F-J9-4HH"/>
+                        <color key="backgroundColor" red="0.770663023" green="0.0" blue="0.40785598750000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="QFv-t2-K4J" firstAttribute="leading" secondItem="i7F-J9-4HH" secondAttribute="leading" constant="10" id="6Vb-aI-0ke"/>
+                            <constraint firstItem="i7F-J9-4HH" firstAttribute="trailing" secondItem="QFv-t2-K4J" secondAttribute="trailing" constant="10" id="BIN-Nv-qBe"/>
+                            <constraint firstItem="pJO-DK-S59" firstAttribute="leading" secondItem="i7F-J9-4HH" secondAttribute="leading" constant="40" id="Bmq-j9-MkF"/>
+                            <constraint firstItem="neu-gU-ydX" firstAttribute="top" secondItem="QFv-t2-K4J" secondAttribute="bottom" constant="50" id="HZ1-Gc-U7Q"/>
+                            <constraint firstItem="QFv-t2-K4J" firstAttribute="top" secondItem="i7F-J9-4HH" secondAttribute="top" constant="100" id="KAO-BB-cT1"/>
+                            <constraint firstItem="tgp-aS-8Ds" firstAttribute="top" secondItem="i7F-J9-4HH" secondAttribute="top" id="Mc2-RF-pPN"/>
+                            <constraint firstItem="i7F-J9-4HH" firstAttribute="trailing" secondItem="neu-gU-ydX" secondAttribute="trailing" constant="10" id="STP-Ne-z0M"/>
+                            <constraint firstItem="i7F-J9-4HH" firstAttribute="trailing" secondItem="tgp-aS-8Ds" secondAttribute="trailing" constant="20" id="gBM-bV-i50"/>
+                            <constraint firstItem="neu-gU-ydX" firstAttribute="leading" secondItem="i7F-J9-4HH" secondAttribute="leading" constant="10" id="qQv-8F-EyP"/>
+                            <constraint firstItem="pJO-DK-S59" firstAttribute="top" secondItem="neu-gU-ydX" secondAttribute="bottom" constant="50" id="wU2-Pc-Wa1"/>
+                            <constraint firstItem="i7F-J9-4HH" firstAttribute="trailing" secondItem="pJO-DK-S59" secondAttribute="trailing" constant="40" id="yLO-DT-iOE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="dBt-Om-a6p"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="email" destination="QFv-t2-K4J" id="LP4-ov-Fg0"/>
+                        <outlet property="login" destination="pJO-DK-S59" id="cXp-7f-hfo"/>
+                        <outlet property="password" destination="neu-gU-ydX" id="cEH-Zm-V6k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yx3-5W-q8A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1423" y="129"/>
+        </scene>
+        <!--Home Controller-->
+        <scene sceneID="9UZ-ia-sSe">
+            <objects>
+                <tabBarController restorationIdentifier="HomeController" storyboardIdentifier="HomeController" modalPresentationStyle="fullScreen" id="NLv-WY-YZj" customClass="HomeController" customModule="NiceDayInArmenia" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HgA-CH-Thc"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="kQ2-NL-1pq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1qQ-6G-Zlz" kind="relationship" relationship="viewControllers" id="JM0-Gj-DLD"/>
+                        <segue destination="NKE-8F-9rQ" kind="relationship" relationship="viewControllers" id="Nam-GM-Yd3"/>
+                        <segue destination="Gn3-Cv-iyv" kind="relationship" relationship="viewControllers" id="M9a-id-YLJ"/>
+                        <segue destination="NAm-xd-soT" kind="relationship" relationship="viewControllers" id="hAX-UC-1RV"/>
+                        <segue destination="hwF-kR-MUw" kind="relationship" relationship="viewControllers" id="g2S-DQ-dRw"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cpe-Ad-jKL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-338" y="129"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Erevan" width="728" height="579"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

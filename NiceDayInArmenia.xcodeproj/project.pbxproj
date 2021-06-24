@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A960AB1FB15B270DEF2F18 /* Pods_NiceDayInArmenia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85B20E75663AF73D6D755FFC /* Pods_NiceDayInArmenia.framework */; };
+		3361C2DB2677CED600D38615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361C2DA2677CED600D38615 /* AppDelegate.swift */; };
+		3361C2DD2677CED600D38615 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361C2DC2677CED600D38615 /* SceneDelegate.swift */; };
+		3361C2E22677CED600D38615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3361C2E02677CED600D38615 /* Main.storyboard */; };
+		3361C2E42677CED800D38615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3361C2E32677CED800D38615 /* Assets.xcassets */; };
+		3361C2E72677CED800D38615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3361C2E52677CED800D38615 /* LaunchScreen.storyboard */; };
+		3361C2EF2677D5AA00D38615 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361C2EE2677D5AA00D38615 /* SplashController.swift */; };
+		3361C2F12677DB2800D38615 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361C2F02677DB2800D38615 /* LoginController.swift */; };
+		3361C2F92677E4F700D38615 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361C2F82677E4F700D38615 /* Extensions.swift */; };
+		3361C2FD2677EC5200D38615 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361C2FC2677EC5200D38615 /* HomeController.swift */; };
+		33CA44D52684E79D00778F6A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33CA44D42684E79D00778F6A /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3361C2D72677CED600D38615 /* NiceDayInArmenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceDayInArmenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3361C2DA2677CED600D38615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3361C2DC2677CED600D38615 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3361C2E12677CED600D38615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3361C2E32677CED800D38615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3361C2E62677CED800D38615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3361C2E82677CED800D38615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3361C2EE2677D5AA00D38615 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		3361C2F02677DB2800D38615 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		3361C2F82677E4F700D38615 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3361C2FC2677EC5200D38615 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		33CA44D42684E79D00778F6A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		72750526136C66346B052F5A /* Pods-NiceDayInArmenia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceDayInArmenia.debug.xcconfig"; path = "Target Support Files/Pods-NiceDayInArmenia/Pods-NiceDayInArmenia.debug.xcconfig"; sourceTree = "<group>"; };
+		85B20E75663AF73D6D755FFC /* Pods_NiceDayInArmenia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceDayInArmenia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D398CAD51938AFC8BF9FA6 /* Pods-NiceDayInArmenia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceDayInArmenia.release.xcconfig"; path = "Target Support Files/Pods-NiceDayInArmenia/Pods-NiceDayInArmenia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3361C2D42677CED600D38615 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A960AB1FB15B270DEF2F18 /* Pods_NiceDayInArmenia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3361C2CE2677CED600D38615 = {
+			isa = PBXGroup;
+			children = (
+				3361C2D92677CED600D38615 /* NiceDayInArmenia */,
+				3361C2D82677CED600D38615 /* Products */,
+				4DA4B7EC6FA36EEB5A4F4FAF /* Pods */,
+				D250D43BF01B0592C7182B15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3361C2D82677CED600D38615 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3361C2D72677CED600D38615 /* NiceDayInArmenia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3361C2D92677CED600D38615 /* NiceDayInArmenia */ = {
+			isa = PBXGroup;
+			children = (
+				33CA44D42684E79D00778F6A /* GoogleService-Info.plist */,
+				3361C2F72677E4E400D38615 /* Extensions */,
+				3361C2F32677E44600D38615 /* Delegate */,
+				3361C2F42677E45800D38615 /* Controllers */,
+				3361C2F52677E46C00D38615 /* Storyboard */,
+				3361C2F62677E47900D38615 /* Supporting */,
+			);
+			path = NiceDayInArmenia;
+			sourceTree = "<group>";
+		};
+		3361C2F32677E44600D38615 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3361C2DA2677CED600D38615 /* AppDelegate.swift */,
+				3361C2DC2677CED600D38615 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		3361C2F42677E45800D38615 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3361C2EE2677D5AA00D38615 /* SplashController.swift */,
+				3361C2F02677DB2800D38615 /* LoginController.swift */,
+				3361C2FC2677EC5200D38615 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3361C2F52677E46C00D38615 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3361C2E02677CED600D38615 /* Main.storyboard */,
+				3361C2E52677CED800D38615 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		3361C2F62677E47900D38615 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				3361C2E32677CED800D38615 /* Assets.xcassets */,
+				3361C2E82677CED800D38615 /* Info.plist */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		3361C2F72677E4E400D38615 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3361C2F82677E4F700D38615 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4DA4B7EC6FA36EEB5A4F4FAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72750526136C66346B052F5A /* Pods-NiceDayInArmenia.debug.xcconfig */,
+				A9D398CAD51938AFC8BF9FA6 /* Pods-NiceDayInArmenia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D250D43BF01B0592C7182B15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85B20E75663AF73D6D755FFC /* Pods_NiceDayInArmenia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3361C2D62677CED600D38615 /* NiceDayInArmenia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3361C2EB2677CED800D38615 /* Build configuration list for PBXNativeTarget "NiceDayInArmenia" */;
+			buildPhases = (
+				A7BD45FEAAE336B0877BF77B /* [CP] Check Pods Manifest.lock */,
+				3361C2D32677CED600D38615 /* Sources */,
+				3361C2D42677CED600D38615 /* Frameworks */,
+				3361C2D52677CED600D38615 /* Resources */,
+				652C49C1FEF5AC3D6CDBEB86 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NiceDayInArmenia;
+			productName = NiceDayInArmenia;
+			productReference = 3361C2D72677CED600D38615 /* NiceDayInArmenia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3361C2CF2677CED600D38615 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3361C2D62677CED600D38615 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 3361C2D22677CED600D38615 /* Build configuration list for PBXProject "NiceDayInArmenia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3361C2CE2677CED600D38615;
+			productRefGroup = 3361C2D82677CED600D38615 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3361C2D62677CED600D38615 /* NiceDayInArmenia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3361C2D52677CED600D38615 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3361C2E72677CED800D38615 /* LaunchScreen.storyboard in Resources */,
+				33CA44D52684E79D00778F6A /* GoogleService-Info.plist in Resources */,
+				3361C2E42677CED800D38615 /* Assets.xcassets in Resources */,
+				3361C2E22677CED600D38615 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		652C49C1FEF5AC3D6CDBEB86 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceDayInArmenia/Pods-NiceDayInArmenia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceDayInArmenia/Pods-NiceDayInArmenia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceDayInArmenia/Pods-NiceDayInArmenia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7BD45FEAAE336B0877BF77B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceDayInArmenia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3361C2D32677CED600D38615 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3361C2EF2677D5AA00D38615 /* SplashController.swift in Sources */,
+				3361C2F92677E4F700D38615 /* Extensions.swift in Sources */,
+				3361C2FD2677EC5200D38615 /* HomeController.swift in Sources */,
+				3361C2DB2677CED600D38615 /* AppDelegate.swift in Sources */,
+				3361C2DD2677CED600D38615 /* SceneDelegate.swift in Sources */,
+				3361C2F12677DB2800D38615 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3361C2E02677CED600D38615 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3361C2E12677CED600D38615 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3361C2E52677CED800D38615 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3361C2E62677CED800D38615 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3361C2E92677CED800D38615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3361C2EA2677CED800D38615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3361C2EC2677CED800D38615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72750526136C66346B052F5A /* Pods-NiceDayInArmenia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ../NiceDayInArmenia/NiceDayInArmenia/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xcho.NiceDayInArmenia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3361C2ED2677CED800D38615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D398CAD51938AFC8BF9FA6 /* Pods-NiceDayInArmenia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ../NiceDayInArmenia/NiceDayInArmenia/Supporting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Xcho.NiceDayInArmenia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3361C2D22677CED600D38615 /* Build configuration list for PBXProject "NiceDayInArmenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3361C2E92677CED800D38615 /* Debug */,
+				3361C2EA2677CED800D38615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3361C2EB2677CED800D38615 /* Build configuration list for PBXNativeTarget "NiceDayInArmenia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3361C2EC2677CED800D38615 /* Debug */,
+				3361C2ED2677CED800D38615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3361C2CF2677CED600D38615 /* Project object */;
+}
