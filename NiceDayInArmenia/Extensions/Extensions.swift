@@ -3,7 +3,7 @@
 //  NiceDayInArmenia
 //
 //  Created by XchoBeglaryan on 14.06.21.
-//
+// Xcho
 
 import UIKit
 
