@@ -4,6 +4,7 @@
 //
 //  Created by XchoBeglaryan on 14.06.21.
 // Xcho  lraw
+// Shat shog e
 // Valodya
 
 import UIKit
