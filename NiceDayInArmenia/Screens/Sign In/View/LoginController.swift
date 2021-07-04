@@ -42,8 +42,8 @@ class LoginController: UIViewController {
         
     }
     func gotoHome() {
-        let home = self.storyboard?.instantiateViewController(withIdentifier: "HomeController") as! HomeController
-        self.present(home, animated: true, completion: nil)
+        let home = self.storyboard?.instantiateViewController(withIdentifier: "SHCircleBarController") 
+        self.present(home!, animated: true, completion: nil)
     }
     
     @discardableResult
